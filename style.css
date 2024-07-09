@@ -142,6 +142,7 @@ input {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     padding: 8px;
     background: linear-gradient(45deg, rgba(52, 109, 98, 0.521), rgba(85, 153, 85, 0.493));
+    color: white;
 }
 
 input::placeholder {
