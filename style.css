@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(214, 214, 214);
+}
+
+h1 {
+    font-size: 50px;
+    background: linear-gradient(45deg, rgb(52, 109, 99), rgb(85, 153, 85));
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    box-shadow: 7px 7px 39px black;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    background-color: rgb(136, 146, 138);
+    color: white;
+    padding: 20px;
+    list-style-type: none; 
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(136, 146, 138);
+    color: white;
+    min-height: 722px;
+    max-height: 100%;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    background: linear-gradient(45deg, rgb(83, 177, 157), rgb(122, 216, 119));
+}
+
+.thead {
+    background-color: transparent;
+    background: linear-gradient(45deg, rgb(52, 109, 99), rgb(85, 153, 85));
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    color: white;
+}
+
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    color: rgb(0, 0, 0);   
+}
+
+.tituloAlert {
+    text-decoration: underline;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.formRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn {
+    background: linear-gradient(45deg, rgb(71, 148, 134), rgb(110, 197, 110));
+    color: white;
+    border: 1px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btnAbajo {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+    background: linear-gradient(45deg, rgb(52, 109, 99), rgb(85, 153, 85));
+    color: white;
+    border: 1px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.452);
+}
+
+
+.btnBorrar {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    background: linear-gradient(45deg, rgb(52, 109, 99), rgb(85, 153, 85));
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    background: linear-gradient(45deg, rgba(52, 109, 98, 0.521), rgba(85, 153, 85, 0.493));
+}
+
+input::placeholder {
+    color: white;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+::selection {
+    background-color: rgb(26, 80, 49);
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(94, 92, 92);
+    color: white;
+    padding: 20px;
+}
